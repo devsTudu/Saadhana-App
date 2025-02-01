@@ -12,4 +12,7 @@ class myAppBar(ft.AppBar):
             ft.IconButton(ft.Icons.WB_SUNNY_OUTLINED),
             ft.IconButton(ft.Icons.SETTINGS_APPLICATIONS),
         ]
+        self.adaptive = True
+        self.center_title = True
+        self.toolbar_height = 100
         
